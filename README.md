@@ -46,9 +46,9 @@ A successful submission for this lab will include a Java program which:
         * Function as syntactically-correct Java statements
 * A 250-word reflection included in a file named `reflection.md`, located in a directory called `writing` located in the main directory of your `commit`ted repository.
 
-**Note**: Some poems contain italicized or otherwise-styled language. Though this is possible using Java, it is not a required part of the submission. However, students interested in achieving this formatting can read more formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
+**Note**: Some poems contain italicized or otherwise-styled language. Though this is possible using Java, it is not a required part of the submission. However, students interested in achieving this formatting can read more about formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
 
-If you do not have a poem in mind, you can always use [a poem I've selected](#sample-poem) for this assignment.
+If you do not have a poem in mind, you can always use [a poem I've selected](#sample-poem) for this assignment. If the below does not suit you, sites like [Poetry Daily](https://www.poems.com) or the [Poetry Foundation](https://www.poetryfoundation.org) have some great examples. Perhaps you'll find something unexpected that you like and can share with everyone you know, including your professor.
 
 ## Sample poem
 
