@@ -11,3 +11,9 @@ src/main/java/poem:
         --exists
         --multi 1 --language Java
         --fragment "println(" --count 10
+writing:
+    reflection.md:
+        mdl
+        cat
+        --exists
+        --words 250
