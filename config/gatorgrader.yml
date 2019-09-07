@@ -6,9 +6,8 @@ indent: 4
 version: v0.2.0
 executables: cat, bash
 ---
-src/main:
-    java:
-        /Poem.java:
+src/main/java:
+    Poem.java:
         --exists
         --single 1 --language Java
         --multi 3 --language Java
