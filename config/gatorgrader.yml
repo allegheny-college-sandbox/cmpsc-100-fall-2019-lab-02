@@ -8,7 +8,7 @@ executables: cat, bash
 ---
 src/main:
     java:
-        Poem.java:
+        /Poem.java:
         --exists
         --single 1 --language Java
         --multi 3 --language Java
