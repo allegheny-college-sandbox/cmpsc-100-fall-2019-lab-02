@@ -49,3 +49,39 @@ A successful submission for this lab will include a Java program which:
 **Note**: Some poems contain italicized or otherwise-styled language. Though this is possible using Java, it is not a required part of the submission. However, students interested in achieving this formatting can read more formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
 
 If you do not have a poem in mind, you can always use [a poem I've selected](#the-naming-of-cats) for this assignment.
+
+## The Naming of Cats
+**T.S. Eliot**
+_Old Possum's Book of Practical Cats_
+
+The Naming of Cats is a difficult matter,
+  It isn't just one of your holiday games;
+You may think at first I'm as mad as a hatter
+When I tell you, a cat must have THREE DIFFERENT NAMES.
+First of all, there's the name that the family use daily,
+  Such as Peter, Augustus, Alonzo, or James,
+Such as Victor or Jonathan, George or Bill Bailey--
+  All of them sensible everyday names.
+There are fancier names if you think they sound sweeter,
+  Some for the gentlement, some for the dames:
+Such as Plato, Admetus, Electra, Demeter--
+  But all of them sensible everyday names.
+But, I tell you, a cat needs a name that's particular,
+  A name that's peculiar, and more dignified,
+Else how can he keep up his tail perpendicular,
+  Or spread out his whiskers, or cherish his pride?
+Of name of this kind, I can give you a quorum,
+  Such as Munkustrap, Quaxo, or Coricopat,
+Such as Bombalurina, or else Jellyorum--
+  Names that never belong to more than one cat.
+But above and beyond there's still one name left over,
+  And that is hte name that you will never guess;
+The name that no human research can discover--
+  But THE CAT HIMSELF KNOWS, and will never confess.
+When you notice a cat in profound meditation,
+  The reason, I tell you, is always the same:
+His mind is engaged in a rapt contemplation
+  Of the thought, of the thought, of the thought of his name:
+    His ineffable effable
+    Effanineaffable
+Deep and inscrutable singlar Name.
