@@ -50,11 +50,13 @@ A successful submission for this lab will include a Java program which:
 
 If you do not have a poem in mind, you can always use [a poem I've selected](#the-naming-of-cats) for this assignment.
 
-## The Naming of Cats
-**T.S. Eliot**
-_Old Possum's Book of Practical Cats_
+## Sample poem
 
 ```
+"The Naming of Cats"
+T.S. Eliot
+Old Possum's Book of Practical Cats
+
 The Naming of Cats is a difficult matter,
   It isn't just one of your holiday games;
 You may think at first I'm as mad as a hatter
