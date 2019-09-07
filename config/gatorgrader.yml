@@ -8,8 +8,8 @@ executables: cat, bash
 ---
 src/main:
     java:
-        Poem.java
-            --exists
-            --single 1 --language Java
-            --multi 3 --language Java
-            --fragment "println(" --count 10
+        Poem.java:
+        --exists
+        --single 1 --language Java
+        --multi 3 --language Java
+        --fragment "println(" --count 10
