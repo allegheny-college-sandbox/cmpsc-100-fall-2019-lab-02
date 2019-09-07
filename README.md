@@ -44,11 +44,11 @@ A successful submission for this lab will include a Java program which:
         * Reproduce each line of the poem paying attention to spacing, syntax, and correct grammar
             * Keep in mind that "spacing" here means both horizontal and vertical spacing
         * Function as syntactically-correct Java statements
-* A 250-word reflection included in a file named `reflection.md`, located in the main directory of your `commit`ted repository.
+* A 250-word reflection included in a file named `reflection.md`, located in a directory called `writing` located in the main directory of your `commit`ted repository.
 
 **Note**: Some poems contain italicized or otherwise-styled language. Though this is possible using Java, it is not a required part of the submission. However, students interested in achieving this formatting can read more formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
 
-If you do not have a poem in mind, you can always use [a poem I've selected](#the-naming-of-cats) for this assignment.
+If you do not have a poem in mind, you can always use [a poem I've selected](#sample-poem) for this assignment.
 
 ## Sample poem
 
@@ -78,7 +78,7 @@ Of name of this kind, I can give you a quorum,
 Such as Bombalurina, or else Jellyorum--
   Names that never belong to more than one cat.
 But above and beyond there's still one name left over,
-  And that is hte name that you will never guess;
+  And that is the name that you will never guess;
 The name that no human research can discover--
   But THE CAT HIMSELF KNOWS, and will never confess.
 When you notice a cat in profound meditation,
