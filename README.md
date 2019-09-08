@@ -46,8 +46,8 @@ A successful submission for this lab will include a Java program which:
         * Function as syntactically-correct Java statements
 * A 250-word reflection included in a file named `reflection.md`, located in a directory called `writing` located in the main directory of your `commit`ted repository.
     * This file must contain:
-        * One level one header
-        * Two level two headers which describe the processes of finding the poem and programming the poem
+        * One (1) level one header which should read "CMPSC 100-03: Lab 2"
+        * Two (2) level two headers which describe the processes of finding the poem and programming the poem
             * What interested in you in that particular work?
             * What challenges or difficulties did you face in reproducing it?
 

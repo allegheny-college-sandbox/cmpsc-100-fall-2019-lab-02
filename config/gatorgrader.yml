@@ -5,7 +5,7 @@ indent: 4
 ---
 src/main:
     java:
-        poem/DisplayOutput.java:
+        poem/DisplayPoem.java:
             ConfirmFileExists
             CountSingleLineComments --language Java --count 0 --exact
             CountMultipleLineComments --language Java --count 1
