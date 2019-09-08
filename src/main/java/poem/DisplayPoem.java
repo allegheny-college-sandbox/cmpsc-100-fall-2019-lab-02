@@ -1,8 +1,13 @@
-package Poem;
+package poem;
 
 public class DisplayPoem {
-  // TODO Replace with multi-line comment.
+  /**
+   * This class displays a developer-supplied poem of variable length.
+   *
+   * @author {YOUR NAME HERE}
+   */
   public static void main(String[] args) {
+    // TODO Replace with multi-line comment.
     System.out.println("1");
     System.out.println("2");
     System.out.println("3");

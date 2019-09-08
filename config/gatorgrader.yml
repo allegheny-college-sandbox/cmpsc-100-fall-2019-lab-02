@@ -8,7 +8,7 @@ src/main:
         poem/DisplayPoem.java:
             ConfirmFileExists
             CountSingleLineComments --language Java --count 0 --exact
-            CountMultipleLineComments --language Java --count 1
+            CountMultipleLineComments --language Java --count 2
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileRegex --regex "println\(" --count 10
         
