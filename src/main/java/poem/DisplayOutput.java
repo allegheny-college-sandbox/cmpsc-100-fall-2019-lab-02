@@ -1,4 +1,6 @@
-public class Poem {
+package Poem;
+
+public class DisplayOutput {
     // TODO Replace with multi-line comment.
     public static void main (String[] args) {
         System.out.println("1");

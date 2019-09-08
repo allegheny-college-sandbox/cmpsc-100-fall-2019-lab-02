@@ -20,7 +20,7 @@ repositories {
 }
 
 apply plugin: 'application'
-mainClassName = 'Poem'
+mainClassName = 'Poem.Poem'
 
 
 apply plugin: 'checkstyle'

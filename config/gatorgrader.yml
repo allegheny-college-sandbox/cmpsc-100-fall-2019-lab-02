@@ -5,7 +5,7 @@ indent: 4
 ---
 src/main:
     java:
-        poem/Poem.java:
+        poem/DisplayOutput.java:
             ConfirmFileExists
             CountSingleLineComments --language Java --count 0 --exact
             CountMultipleLineComments --language Java --count 1
@@ -16,7 +16,7 @@ writing:
     reflection.md:
         ConfirmFileExists
         CountFileWords --count 250
-        CountMarkDownTags --tag "heading" --count 3
+        CountMarkdownTags --tag "heading" --count 3
         MatchFileFragment --fragment "TODO" --count 0 --exact
         
 CountCommits --count 2
