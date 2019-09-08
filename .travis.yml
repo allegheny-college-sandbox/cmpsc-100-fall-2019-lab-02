@@ -2,7 +2,7 @@ dist: trusty
 language: java
 sudo: false
 jdk: oraclejdk8
-script: javac src/main/java/Poem.java
+script: javac src/main/java/DisplayOutput.java
 before_install:
  # ensure we are using the correct version of gradle
   - wget https://services.gradle.org/distributions/gradle-4.9-bin.zip
@@ -36,10 +36,9 @@ before_script:
 
 # run grading checks
 script:
-  # lint the sample documentation writing
-  - mdl writing/reflection.md
-  - proselint writing/reflection.md
-  # in an actual assignment, only the following lines would be in the script block
   - gradle --version
   - gradle clean
-  - gradle grade
+  - gradle check
+  - gradle build
+  - gradle run
+  - gradle grade -x build
