@@ -20,5 +20,6 @@ writing:
         CountMarkdownTags --tag "heading" --count 3
         MatchFileFragment --fragment "TODO" --count 0 --exact
         
-CountCommits --count 3
+CountCommits --count 2
+ExecuteCommand --command "gradle build"
 CountCommandOutput --command "gradle -q --console plain run" --count 10
