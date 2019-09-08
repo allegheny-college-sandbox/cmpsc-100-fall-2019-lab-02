@@ -1,7 +1,7 @@
 dist: trusty
 language: java
 sudo: false
-jdk: 
+jdk: oraclejdk8
 script: javac src/main/java/Poem.java
 before_install:
  # ensure we are using the correct version of gradle

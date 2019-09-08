@@ -3,12 +3,13 @@ name: lab-02
 break: true
 indent: 4
 ---
-src/main/java/poem:
-    Poem.java:
-        ConfirmFileExists
-        CountMultipleLineComment --language Java --count 1
-        MatchFileFragment --fragment "TODO" --count 0 exact
-        MatchFileRegex --regex "println\((.)*\)" --count 10
+src/main/:
+    java:
+        poem/Poem.java:
+            ConfirmFileExists
+            CountMultipleLineComments --language Java --count 1
+            MatchFileFragment --fragment "TODO" --count 0 exact
+            MatchFileRegex --regex "println\((.)*\)" --count 10
         
 writing:
     reflection.md:
