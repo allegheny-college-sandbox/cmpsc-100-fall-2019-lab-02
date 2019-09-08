@@ -46,9 +46,94 @@ A successful submission for this lab will include a Java program which:
         * Function as syntactically-correct Java statements
 * A 250-word reflection included in a file named `reflection.md`, located in a directory called `writing` located in the main directory of your `commit`ted repository.
 
-**Note**: Some poems contain italicized or otherwise-styled language. Though this is possible using Java, it is not a required part of the submission. However, students interested in achieving this formatting can read more about formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
+**Note**: Some poems contain italicized or otherwise-styled language. Though most formatting is possible in text-only Java applications, it is not a required part of the submission. However, students interested in achieving this formatting can read more about formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
 
 If you do not have a poem in mind, you can always use [a poem I've selected](#sample-poem) for this assignment. If the below does not suit you, sites like [Poetry Daily](https://www.poems.com) or the [Poetry Foundation](https://www.poetryfoundation.org) have some great examples. Perhaps you'll find something unexpected that you like and can share with everyone you know, including your professor.
+
+## Write your code
+
+- [ ] If you have not already cloned the repository, do so now.
+* Find an easily-accessible and easy to remember location to do this. It may require using commands like `cd`, `pwd`, and the `~` to find the best place for the repository.
+- [ ] When you've selected the poem you're going to replicate, locate the Poem.java file.
+
+## Using GatorGrader
+
+GatorGrader is a software utility actively developed and maintained by students in consultation with Allegheny faculty, Prof. Kapfhammer. This software allows you to check your work _before_ turning it in, so that you know--at any point--what your grade would be on an assignment if turned in at the moment you run GatorGrader.
+
+When you turn assignments in for this class, the action triggers a "build" in a utility called [Travis](https://travis-ci.com). One of the steps it includes is running GatorGrader against the submitted code. There aren't any hidden criteria; the grader will grade the assignment the same way, regardless of who run it because it is based on files which are contained _in the very repository you commit_. Once a repository is cloned, grading critieria will never change.
+
+### Installation
+
+#### Mac
+
+- [ ] In a terminal window, type `docker pull gatoreducator/dockagator`.
+* This will contact Docker Hub to download the GatorGrade docker `image`.
+- [ ] Type `docker images`
+* The newly-acquired image should appear in the list as `gatoreducator/dockagator`
+- [ ] To run the GatorGrader, `cd` to the main directory of your repository and type:
+```
+docker run -itrm --mount type=bind,source="$(pwd)",target="/" --hostname GatorGrader gatoreduacator/dockagator
+```
+* You should now be in the GatorGrader `container`.
+- [ ] Type `gradle build` to begin setting up your assignment for grading.
+- [ ] When the above command completes, type `gradle grade`
+* This will begin the grading process.
+- [ ] When the grading process completes, call the professor over to discuss.
+
+#### Windows
+
+For those Windows users interested in using a Docker image to implement GatorGrader, please [book student hours](https://cs.allegheny.edu/sites/dluman) to discuss the process with me.
+
+**Note:** For all of the following steps, you will need administrator privileges to install these programs.
+
+##### Install `gradle`
+
+Using the simplest definition, Gradle is a build automation tool. In plain terms, it's a program that orchestrates complex processes so that you, the end user, don't have to do them. 
+
+The faculty have written scripts to automate the grading process--a process which can take many, many individual commands to complete. As you'll see, there are really only three things you need to do when running a `gradle` grading process instead of the many that the process may actually require. The tool makes things easy for you.
+
+- [ ] In a `cmd` window, use `choco` to install Gradle by typing `choco install gradle -y`
+- [ ] Once complete, test your installation by typing `gradle --version`
+* A typical response would be similar to: `Gradle` followed by a version number
+
+##### Install `python` and `ruby`
+
+If you're not familiar with these two languages, Python and Ruby are 3<sup>rd</sup> generation languages--similar to Java. Some of you may have experience with them while others of you may never have heard of them. You do not need to know anything about either in this course except that they need to exist on your computer to run GatorGrader. 
+
+If you're so inclined, you might begin to tinker in these languages to learn a bit more about how different languages operate. Python and Ruby, while similar to each other, are different from Java.
+
+- [ ] Use `choco` to install Python by typing `choco install python -y`
+- [ ] Use `choco` to install Ruby by typing `choco install ruby -y`
+
+To facilitate GatorGrader finding the right `python` command, we need to use `mklink` to create a "symbolic link" (a.k.a. a fake file).
+
+- [ ] In the same `cmd` window, type:
+```
+mklink "c:\Python37\python3.exe" "c:\Python37\python.exe"
+```
+
+We're in the home stretch.
+
+- [ ] Close the current `cmd` window and open another with administrative privileges
+- [ ] Use `pip`, a "package manager" like `choco` to install a couple of tools:
+
+```
+pip install proselint
+```
+
+```
+pip install pipenv
+```
+
+* `pip` is exclusive to Python, and installs extensions and applications for the Python language.
+
+- [ ] Use `gem`, another "package manager" to install one tool:
+
+```
+gem install mdl
+```
+
+- [ ] When you're ready to grade, either call the professor over (if we're still in the lab session), or [schedule student hours](https://cs.allegheny.edu/sites/dluman) to discuss the process.
 
 ## Sample poem
 
