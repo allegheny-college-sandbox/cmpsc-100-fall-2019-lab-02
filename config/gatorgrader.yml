@@ -22,4 +22,5 @@ writing:
         
 CountCommits --count 2
 ExecuteCommand --command "gradle build"
+ExecuteCommand --command "gradle -q --console plain run" 
 CountCommandOutput --command "gradle -q --console plain run" --count 10
