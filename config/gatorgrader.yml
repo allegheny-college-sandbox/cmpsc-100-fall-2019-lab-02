@@ -15,5 +15,4 @@ writing:
     reflection.md:
         mdl
         cat
-        --exists
         --words 250
