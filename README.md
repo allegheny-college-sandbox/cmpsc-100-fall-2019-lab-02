@@ -35,16 +35,21 @@ A successful submission for this lab will include a Java program which:
 * Compiles
 * Runs successfully
 * Contains a minimum of:
-    * 1 multi-line comment containing each on a separate line, clearly labeled:
+    * 1 multi-line comment containing each item below on a separate line, clearly labeled:
         * The title of the poem selected
         * The author of the poem selected
         * The source from which the poem was taken
     * **At Least** 10 `System.out.println` statements which contain individual lines of the work chosen that:
-        * Display the title and author of work chosen, separated from the body of the poem by a blank line
+        * Display the title, author, and source of work chosen, separated from the body of the poem by a blank line
         * Reproduce each line of the poem paying attention to spacing, syntax, and correct grammar
             * Keep in mind that "spacing" here means both horizontal and vertical spacing
         * Function as syntactically-correct Java statements
 * A 250-word reflection included in a file named `reflection.md`, located in a directory called `writing` located in the main directory of your `commit`ted repository.
+    * This file must contain:
+        * One level one header
+        * Two level two headers which describe the processes of finding the poem and programming the poem
+            * What interested in you in that particular work?
+            * What challenges or difficulties did you face in reproducing it?
 
 **Note**: Some poems contain italicized or otherwise-styled language. Though most formatting is possible in text-only Java applications, it is not a required part of the submission. However, students interested in achieving this formatting can read more about formatting and non-printing characters in Java [in this Stack Overflow discussion](https://stackoverflow.com/questions/30310147/how-to-print-an-string-variable-as-italicized-text).
 

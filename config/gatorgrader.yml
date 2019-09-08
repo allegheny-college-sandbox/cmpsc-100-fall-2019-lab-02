@@ -1,18 +1,22 @@
 ---
 name: lab-02
 break: true
-fastfail: false
 indent: 4
-version: v0.2.0
-executables: cat, bash
 ---
 src/main/java/poem:
     Poem.java:
-        --exists
-        --multi 1 --language Java
-        --fragment "println(" --count 10
+        ConfirmFileExists
+        CountMultipleLineComment --language Java --count 1
+        MatchFileFragment --fragment "TODO" --count 0 exact
+        MatchFileRegex --regex "println\((.)*\)" --count 10
+        
 writing:
     reflection.md:
-        mdl
-        cat
-        --words 250
+        ConfirmFileExists
+        CountFileWords --count 250
+        CountMarkDownTags --tag "heading" --count 3
+        MatchFileFragment --fragment "TODO" --count 0 exact
+
+ExecuteCommand --command "gradle build"
+ExecuteCommand --command "gradle -q --console plain run"
+CountCommandOutput --command "gradle -q --console plain run" --count 10
