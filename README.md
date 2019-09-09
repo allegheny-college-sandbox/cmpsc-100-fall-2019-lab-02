@@ -138,7 +138,15 @@ pip install pipenv
 gem install mdl
 ```
 
-- [ ] When you're ready to grade, either call the professor over (if we're still in the lab session), or [schedule student hours](https://cs.allegheny.edu/sites/dluman) to discuss the process.
+##### Grading
+
+- [ ] `cd` to the main directory of the repository where you've been saving your code
+- [ ] Type `gradle build` and press `Enter`.
+- [ ] Once the build operating ends, type `gradle grade`
+
+The GatorGrader will use pre-defined criteria included in the repository you cloned to assess the assignment. Output for a successfuly lab will look something like this:
+
+![Successful lab](https://cs.allegheny.edu/sites/dluman/cmpsc100/lab-01-successful.png)
 
 ## Sample poem
 
