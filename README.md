@@ -146,7 +146,7 @@ gem install mdl
 
 The GatorGrader will use pre-defined criteria included in the repository you cloned to assess the assignment. Output for a successfuly lab will look something like this:
 
-![Successful lab](https://cs.allegheny.edu/sites/dluman/cmpsc100/lab-01-successful.png)
+![Successful lab](https://cs.allegheny.edu/sites/dluman/cmpsc100/img/lab-01-successful.png)
 
 ## Sample poem
 
